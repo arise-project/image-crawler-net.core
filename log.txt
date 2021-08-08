@@ -1,0 +1,106 @@
+2021-08-08 23:07:36.983 +03:00 [INF] Loaded 5 extensions
+2021-08-08 23:07:38.485 +03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-08 23:07:39.175 +03:00 [INF] Found Visual Studio v16.10.31515.178 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community]
+2021-08-08 23:07:41.511 +03:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-08 23:07:42.361 +03:00 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-08-08 23:07:42.367 +03:00 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-08-08 23:07:42.369 +03:00 [INF] Marking assembly reference System.ServiceModel for removal based on package mapping configuration System.ServiceModel
+2021-08-08 23:07:42.370 +03:00 [INF] Adding package System.ServiceModel.Primitives based on package mapping configuration System.ServiceModel
+2021-08-08 23:07:42.372 +03:00 [INF] Adding package System.ServiceModel.Http based on package mapping configuration System.ServiceModel
+2021-08-08 23:07:42.373 +03:00 [INF] Adding package System.ServiceModel.Duplex based on package mapping configuration System.ServiceModel
+2021-08-08 23:07:42.374 +03:00 [INF] Adding package System.ServiceModel.NetTcp based on package mapping configuration System.ServiceModel
+2021-08-08 23:07:42.375 +03:00 [INF] Adding package System.ServiceModel.Security based on package mapping configuration System.ServiceModel
+2021-08-08 23:07:42.376 +03:00 [INF] Adding package System.ServiceModel.Federation based on package mapping configuration System.ServiceModel
+2021-08-08 23:07:48.443 +03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.237901) needs added
+2021-08-08 23:08:59.452 +03:00 [INF] Loaded 5 extensions
+2021-08-08 23:09:00.257 +03:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.302\
+2021-08-08 23:09:01.332 +03:00 [INF] Found Visual Studio v16.10.31515.178 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Community]
+2021-08-08 23:09:02.327 +03:00 [INF] Initializing upgrade step Select an entrypoint
+2021-08-08 23:09:02.331 +03:00 [INF] Setting entrypoint to only project in solution: F:\r\win-image-crawler-master\Crawler.csproj
+2021-08-08 23:09:02.337 +03:00 [INF] Initializing upgrade step Select project to upgrade
+2021-08-08 23:09:02.356 +03:00 [INF] Initializing upgrade step Back up project
+2021-08-08 23:09:15.887 +03:00 [INF] Applying upgrade step Back up project
+2021-08-08 23:09:20.527 +03:00 [INF] Backing up F:\r\win-image-crawler-master to F:\r\win-image-crawler-master.backup
+2021-08-08 23:09:20.589 +03:00 [WRN] Could not copy file F:\r\win-image-crawler-master\log.txt due to 'The process cannot access the file 'F:\r\win-image-crawler-master\log.txt' because it is being used by another process.'
+2021-08-08 23:09:25.398 +03:00 [INF] Project backed up to F:\r\win-image-crawler-master.backup
+2021-08-08 23:09:25.400 +03:00 [INF] Upgrade step Back up project applied successfully
+2021-08-08 23:09:46.479 +03:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-08-08 23:11:29.149 +03:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-08-08 23:11:29.152 +03:00 [INF] Converting project file format with try-convert, version 0.9.232202
+2021-08-08 23:11:29.658 +03:00 [INF] [dotnet] F:\r\win-image-crawler-master\Crawler.csproj contains an App.config file. App.config is replaced by appsettings.json in .NET Core. You will need to delete App.config and migrate to appsettings.json if it's applicable to your project.
+2021-08-08 23:11:31.861 +03:00 [INF] [dotnet] Conversion complete!
+2021-08-08 23:11:32.975 +03:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-08-08 23:11:34.474 +03:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-08-08 23:11:53.941 +03:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-08-08 23:11:55.093 +03:00 [INF] Marking assembly reference System.Configuration for removal based on package mapping configuration System.Configuration
+2021-08-08 23:11:55.099 +03:00 [INF] Adding package System.Configuration.ConfigurationManager based on package mapping configuration System.Configuration
+2021-08-08 23:11:55.100 +03:00 [INF] Marking assembly reference System.ServiceModel for removal based on package mapping configuration System.ServiceModel
+2021-08-08 23:11:55.101 +03:00 [INF] Adding package System.ServiceModel.Primitives based on package mapping configuration System.ServiceModel
+2021-08-08 23:11:55.102 +03:00 [INF] Adding package System.ServiceModel.Http based on package mapping configuration System.ServiceModel
+2021-08-08 23:11:55.104 +03:00 [INF] Adding package System.ServiceModel.Duplex based on package mapping configuration System.ServiceModel
+2021-08-08 23:11:55.106 +03:00 [INF] Adding package System.ServiceModel.NetTcp based on package mapping configuration System.ServiceModel
+2021-08-08 23:11:55.107 +03:00 [INF] Adding package System.ServiceModel.Security based on package mapping configuration System.ServiceModel
+2021-08-08 23:11:55.108 +03:00 [INF] Adding package System.ServiceModel.Federation based on package mapping configuration System.ServiceModel
+2021-08-08 23:11:56.809 +03:00 [WRN] No version of System.Configuration.ConfigurationManager found that supports ["net45"]; leaving unchanged
+2021-08-08 23:12:00.748 +03:00 [WRN] No version of System.ServiceModel.Federation found that supports ["net45"]; leaving unchanged
+2021-08-08 23:12:01.316 +03:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.237901) needs added
+2021-08-08 23:12:01.339 +03:00 [INF] References to be removed: Operation { Item = System.Configuration, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel, OperationDetails = OperationDetails { Risk = Medium, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 23:12:01.344 +03:00 [INF] Packages to be added: Operation { Item = System.Configuration.ConfigurationManager, Version=5.0.0, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.Primitives, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.Http, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.Duplex, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.NetTcp, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.Security, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.Federation, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 23:12:28.822 +03:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-08-08 23:12:28.827 +03:00 [INF] Removing outdated assembly reference: System.Configuration
+2021-08-08 23:12:28.829 +03:00 [INF] Removing outdated assembly reference: System.ServiceModel
+2021-08-08 23:12:28.832 +03:00 [INF] Adding package reference: System.Configuration.ConfigurationManager, Version=5.0.0
+2021-08-08 23:12:28.833 +03:00 [INF] Adding package reference: System.ServiceModel.Primitives, Version=4.8.1
+2021-08-08 23:12:28.834 +03:00 [INF] Adding package reference: System.ServiceModel.Http, Version=4.8.1
+2021-08-08 23:12:28.834 +03:00 [INF] Adding package reference: System.ServiceModel.Duplex, Version=4.8.1
+2021-08-08 23:12:28.835 +03:00 [INF] Adding package reference: System.ServiceModel.NetTcp, Version=4.8.1
+2021-08-08 23:12:28.836 +03:00 [INF] Adding package reference: System.ServiceModel.Security, Version=4.8.1
+2021-08-08 23:12:28.837 +03:00 [INF] Adding package reference: System.ServiceModel.Federation, Version=4.8.1
+2021-08-08 23:12:28.838 +03:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.237901
+2021-08-08 23:12:32.625 +03:00 [WRN] No version of System.Configuration.ConfigurationManager found that supports ["net45"]; leaving unchanged
+2021-08-08 23:12:33.260 +03:00 [WRN] No version of System.ServiceModel.Federation found that supports ["net45"]; leaving unchanged
+2021-08-08 23:12:33.287 +03:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-08-08 23:12:48.464 +03:00 [INF] Initializing upgrade step Update TFM
+2021-08-08 23:12:48.472 +03:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-08 23:12:48.485 +03:00 [INF] TFM needs updated to net5.0
+2021-08-08 23:12:53.437 +03:00 [INF] Applying upgrade step Update TFM
+2021-08-08 23:12:53.441 +03:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-08 23:13:03.623 +03:00 [INF] Updated TFM to net5.0
+2021-08-08 23:13:03.624 +03:00 [INF] Upgrade step Update TFM applied successfully
+2021-08-08 23:13:15.132 +03:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-08-08 23:13:16.388 +03:00 [INF] Marking package System.ServiceModel.Primitives for removal because it appears to be a transitive dependency
+2021-08-08 23:13:16.392 +03:00 [INF] Marking package System.ServiceModel.Http for removal because it appears to be a transitive dependency
+2021-08-08 23:13:16.401 +03:00 [INF] Marking package System.ServiceModel.Security for removal because it appears to be a transitive dependency
+2021-08-08 23:13:16.420 +03:00 [INF] Packages to be removed: Operation { Item = System.ServiceModel.Primitives, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.Http, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+Operation { Item = System.ServiceModel.Security, Version=4.8.1, OperationDetails = OperationDetails { Risk = None, Details = System.Linq.EmptyPartition`1[System.String] } }
+2021-08-08 23:13:26.157 +03:00 [INF] Applying upgrade step Update NuGet Packages
+2021-08-08 23:13:26.159 +03:00 [INF] Removing outdated package reference: System.ServiceModel.Primitives, Version=4.8.1
+2021-08-08 23:13:26.160 +03:00 [INF] Removing outdated package reference: System.ServiceModel.Http, Version=4.8.1
+2021-08-08 23:13:26.161 +03:00 [INF] Removing outdated package reference: System.ServiceModel.Security, Version=4.8.1
+2021-08-08 23:13:27.891 +03:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-08-08 23:13:35.126 +03:00 [INF] Initializing upgrade step Add template files
+2021-08-08 23:13:35.142 +03:00 [INF] 0 expected template items needed
+2021-08-08 23:13:35.148 +03:00 [INF] Initializing upgrade step Upgrade app config files
+2021-08-08 23:13:35.178 +03:00 [INF] Found 0 app settings for upgrade: 
+2021-08-08 23:13:35.182 +03:00 [INF] Found 0 connection strings for upgrade: 
+2021-08-08 23:13:35.188 +03:00 [INF] Initializing upgrade step Update source code
+2021-08-08 23:13:36.670 +03:00 [INF] Initializing upgrade step Move to next project
+2021-08-08 23:13:43.998 +03:00 [INF] Applying upgrade step Move to next project
+2021-08-08 23:13:43.999 +03:00 [INF] Upgrade step Move to next project applied successfully
+2021-08-08 23:13:54.711 +03:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-08 23:13:54.723 +03:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-08 23:13:54.727 +03:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-08 23:13:54.729 +03:00 [INF] Initializing upgrade step Finalize upgrade
+2021-08-08 23:13:54.732 +03:00 [INF] Recommending executable TFM net5.0 because the project builds to an executable
+2021-08-08 23:14:01.125 +03:00 [INF] Applying upgrade step Finalize upgrade
+2021-08-08 23:14:01.127 +03:00 [INF] Upgrade step Finalize upgrade applied successfully
+2021-08-08 23:14:06.349 +03:00 [INF] Upgrade has completed. Please review any changes.

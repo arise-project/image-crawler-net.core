@@ -1,0 +1,6 @@
+/.vs/Crawler/v16
+/AnalysisReport.sarif
+/bin/Debug
+/obj
+/packages/HtmlAgilityPack.1.11.34
+/packages/NLog.4.7.10
